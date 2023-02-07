@@ -15,14 +15,14 @@ body {
 
 .front-side,
 .back-side {
-  width: 254px;
-  height: 441px;
+  width: 441px;
+  height: 254px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-color:rgb(255, 255, 255);
 }
 
 /* .front-side{
@@ -31,7 +31,7 @@ body {
 .name{
   display: grid;
   position: relative;
-  margin-left:30px;
+  margin: left 30px;
   padding: 10px
 
 }
